@@ -1,0 +1,20 @@
+{
+  "name" : "Houses",
+  "description" : "Houses node server",
+  "private" : "true",
+  "version" : "0.12.2",
+  "dependences" : {
+    "http" : "0.11.0",
+    "path" : "0.11.14",
+    "fs" : "0.0.2",
+    "querystring" : "0.2.0",
+    "url" : "0.10.3",
+    "async" : "1.2.1",
+    "request" : "2.57.0",
+    "mysql" : "2.7.0"
+  },
+  "scripts" : {
+    "start" : "node server.js"
+  },
+  "main" : "server.js"
+}
